@@ -53,19 +53,9 @@ git clone [https://github.com/vbhavitha/she_can_foundation_webpage]
 
 3. Open `index.html` using Live Server
 
-## 🌐 Live Demo
-
-Add your deployed Vercel or Netlify link here.
-
-Example:
-
-```plaintext
-https://your-project.vercel.app
-```
-
 ## 📸 Screenshots
+<img width="1919" height="857" alt="image" src="https://github.com/user-attachments/assets/d9069141-1ea1-43ed-b75a-b9e5a7535e6a" />
 
-You can add screenshots of your project here.
 
 ## 🤝 Purpose
 
