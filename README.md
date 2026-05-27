@@ -61,6 +61,8 @@ git clone [https://github.com/vbhavitha/she_can_foundation_webpage]
 
 This project was created as part of the internship task submission for She Can Foundation to demonstrate frontend web development skills and creativity.
 
+
+
 ## 👩‍💻 Author
 
 Bhavitha Vakkalagadda
