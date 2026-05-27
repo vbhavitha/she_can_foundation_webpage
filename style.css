@@ -1,0 +1,285 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#fff;
+  color:#333;
+  line-height:1.6;
+}
+
+/* NAVBAR */
+
+header{
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  background:white;
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+  z-index:1000;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 10%;
+}
+
+.logo{
+  color:#ff4f81;
+  font-size:24px;
+}
+
+.nav-links{
+  display:flex;
+  list-style:none;
+}
+
+.nav-links li{
+  margin-left:20px;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#333;
+  font-weight:500;
+  transition:0.3s;
+}
+
+.nav-links a:hover{
+  color:#ff4f81;
+}
+
+/* HERO SECTION */
+
+.hero{
+  height:100vh;
+  background:
+  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1400&auto=format&fit=crop');
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+  color:white;
+  padding:20px;
+}
+
+.hero-content h1{
+  font-size:55px;
+  margin-bottom:20px;
+}
+
+.hero-content p{
+  font-size:18px;
+  max-width:700px;
+  margin:auto;
+  margin-bottom:30px;
+}
+
+.join-btn{
+  padding:14px 35px;
+  border:none;
+  background:#ff4f81;
+  color:white;
+  font-size:18px;
+  border-radius:30px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.join-btn:hover{
+  background:#ff2e6a;
+  transform:translateY(-3px);
+}
+
+/* ABOUT SECTION */
+
+.about{
+  padding:100px 10%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:50px;
+  flex-wrap:wrap;
+}
+
+.about-text{
+  flex:1;
+}
+
+.about-text h2{
+  font-size:40px;
+  margin-bottom:20px;
+  color:#ff4f81;
+}
+
+.about-text p{
+  margin-bottom:15px;
+  font-size:17px;
+}
+
+.about-image{
+  flex:1;
+  text-align:center;
+}
+
+.about-image img{
+  width:100%;
+  max-width:500px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* VOLUNTEER SECTION */
+
+.volunteer{
+  background:#ff4f81;
+  color:white;
+  text-align:center;
+  padding:80px 20px;
+}
+
+.volunteer h2{
+  font-size:40px;
+  margin-bottom:15px;
+}
+
+.volunteer p{
+  margin-bottom:30px;
+  font-size:18px;
+}
+
+.volunteer-btn{
+  padding:14px 35px;
+  border:none;
+  background:white;
+  color:#ff4f81;
+  font-size:18px;
+  border-radius:30px;
+  cursor:pointer;
+  transition:0.3s;
+  font-weight:600;
+}
+
+.volunteer-btn:hover{
+  transform:scale(1.05);
+}
+
+/* FOOTER */
+
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+  .navbar{
+    flex-direction:column;
+  }
+
+  .hero-content h1{
+    font-size:38px;
+  }
+
+  .about{
+    flex-direction:column;
+    text-align:center;
+  }
+
+}
+/* ABOUT PAGE HERO */
+
+.about-hero{
+  height:60vh;
+
+  background:
+  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1400&auto=format&fit=crop');
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+  color:white;
+  padding:20px;
+}
+
+.about-hero-content h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+.about-hero-content p{
+  font-size:18px;
+  max-width:700px;
+}
+
+/* ABOUT DETAILS */
+
+.about-details{
+  padding:100px 10%;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+
+.detail-box{
+  background:white;
+  padding:40px 30px;
+  border-radius:20px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.detail-box:hover{
+  transform:translateY(-8px);
+}
+
+.detail-box h2{
+  color:#ff4f81;
+  margin-bottom:15px;
+}
+
+/* ABOUT IMAGE */
+
+.about-image-section{
+  padding:0 10% 100px;
+  text-align:center;
+}
+
+.about-image-section img{
+  width:70%;
+  max-width:600px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+  .about-hero-content h1{
+    font-size:36px;
+  }
+
+}
